@@ -35,7 +35,7 @@
 ### 管理员表
 
  ```sql
-CREATE TABLE admin(
+CREATE TABLE admin( --  创建管理员表
 
 	username VARCHAR(30) NOT NULL PRIMARY KEY,
 
@@ -63,7 +63,5 @@ CREATE TABLE USER (  --  创建用户表
 	email VARCHAR(50) 
  );
 ```
-
-
 
 
