@@ -30,9 +30,20 @@
 
 - Tomcat：9.0.7
 
-## 编码
+## 数据库设计
 
-### 创建数据库
+### 管理员表
+
+ ```sql
+CREATE TABLE admin(
+
+	username VARCHAR(30) NOT NULL PRIMARY KEY,
+
+	PASSWORD VARCHAR(20) NOT NULL
+);
+```
+
+### 用户表
 
  ```sql
 CREATE TABLE USER (  --  创建用户表
@@ -52,6 +63,7 @@ CREATE TABLE USER (  --  创建用户表
 	email VARCHAR(50) 
  );
 ```
+
 
 
 
