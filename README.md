@@ -9,10 +9,10 @@
 ### 后端技术
 
 - Java：JDK9
-- Servlet：4.0
-- Spring-JDBC：5.1.5
-- Druid:1.1.11
-- BeanUtUtils:1.9.3
+- [Servlet：4.0.1](https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api)
+- [Spring jdbc：5.1.5](https://mvnrepository.com/artifact/org.springframework/spring-jdbc)
+- [Druid：1.1.11](https://mvnrepository.com/artifact/com.alibaba/druid)
+- [BeanUtUtils：1.9.3](https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils)
 
 ### 前端技术
 
