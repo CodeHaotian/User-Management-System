@@ -30,5 +30,28 @@
 
 - Tomcat：9.0.7
 
+## 编码
+
+### 创建数据库
+
+ ```sql
+CREATE TABLE USER (  --  创建用户表
+ 
+ 	id INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ 
+ 	NAME VARCHAR(20) NOT NULL,
+ 
+ 	sex ENUM('男','女') DEFAULT '男',
+  
+	age INT(11),
+  
+	address VARCHAR(32),
+	
+	qq VARCHAR(20) ,
+	
+	email VARCHAR(50) 
+ );
+```
+
 
 
